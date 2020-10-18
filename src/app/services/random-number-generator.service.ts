@@ -16,7 +16,7 @@ export class RandomNumberGeneratorService {
         setInterval(() => {
           this._holdNumber++;
           subject.next(this._holdNumber);
-        }, 3000);
+        }, 2000);
       });
     }
     return this.randomNumber;
